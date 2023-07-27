@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=PT+Sans:wght@400;700&family=Roboto&display=swap" rel="stylesheet"> 
+   
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+
+    <script src="https://kit.fontawesome.com/089f561118.js" crossorigin="anonymous"></script>
+     <title>Javascript</title>
+  </head>
+  <body>
+   <div class="container">  
+    <h1 class="text-danger"> click the button to show the text </h1>
+    <button class="btn btn-dark" onclick="textChange()" type="button"> Text Change</button>
+    <h2 id="h2">Hello world </h2>
+   </div>
+   <!--show date--> 
+   <div class="container">
+     <h1 class="text-danger">click the button to show the date</h1>
+     <button class="btn btn-dark" type="button" onclick="showDate()">Show date</button>
+     <h2 id="dh2">Date</h2>
+   </div>
+   <!--var ex--> 
+   <div class="container">
+     <h1 class="text-danger">click the button to reapeat the message</h1>
+     <button class="btn btn-dark" type="button" onclick="dataRepeat()">Repeat Message</button>
+      <h2 id="dr"></h2>
+   </div>
+   <!--bulb on off--> 
+   <div class="container">
+     <h1 class="text-danger">Click the button to on/off the bulb</h1>
+     <button onclick="bulbOn()" class="btn btn-success" type="button">On</button>
+     <button onclick="bulbOff()" class="btn btn-dark" type="button">Off</button>
+     <img id="bulb" src="images/off.gif" alt="">
+   </div>
+  <!--style--> 
+    <div class="container">
+     <h1 class="text-danger">click the button to change the font size</h1>
+     <button class="btn btn-dark" type="button" onclick="fontChange()">Font Size</button>
+      <h2 id="cf">Hello world</h2>
+   </div>
+   <!--style--> 
+    <div class="container">
+     <h1 class="text-danger">click the button to change the font color</h1>
+     <button class="btn btn-success" type="button" onclick="fontColor()">Font Color</button>
+      <h2 id="fc">Looks good</h2>
+   </div>
+   <!--text show/hide--> 
+   <!--style--> 
+    <div class="container">
+     <h1 class="text-danger">click the button to show/hide the text</h1>
+     <button class="btn btn-success" type="button" onclick="textShow()">Show</button>
+     <button class="btn btn-dark" type="button" onclick="textHide()">Hide </button>
+      <h2 id="tsh">Show/hide the text</h2>
+   </div>
+   <!--document.write-->
+    <div class="container">
+     <h1 class="text-danger">Document.write fucntion</h1>
+     <button class="btn btn-success" type="button" onclick="documentWrite()">function</button>
+      <h2 id="dw">document.write</h2>
+   </div>
+    <!--document.write--> 
+    <div class="container">
+     <h1 class="text-danger">Window Alert</h1>
+     <button class="btn btn-success" type="button" onclick="windowAlert()">Window Alert</button>
+   </div>
+   <!--variable--> 
+    <div class="container">
+     <h1 class="text-danger">Variable Example</h1>
+     <button class="btn btn-dark" type="button" onclick="variable()">Variables</button>
+      <h2 id="vr"></h2>
+   </div>
+  
+  <!--js query--> 
+   <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>

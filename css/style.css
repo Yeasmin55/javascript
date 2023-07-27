@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=PT+Sans:wght@400;700&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=PT+Sans:wght@400;700&family=Roboto&display=swap');
+body{
+ font-family: 'Roboto', sans-serif;
+ font-size: 16px;
+ font-weight: 400;
+ color:#8e8e8e ;
+}
+.logo{
+	font-size: 30px;
+}
+.src_btn{
+	border: none;
+}
+.src_btn i{
+	font-size: 16px;
+}
+.src_box{
+	display:block;
+	width: 300px;
+}
